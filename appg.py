@@ -108,4 +108,4 @@ iface = gr.Interface(
     title='Loan Approval Predictor',
     description='If you are using the random row generator, click the button to generate a random row. Then click the Submit button to make a prediction.'
 )
-iface.launch()
+iface.launch(server_port=7000)
